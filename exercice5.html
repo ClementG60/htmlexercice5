@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon compte bancaire</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        tfoot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Mon compte BNP</caption>
+
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Libellé</th>
+                <th>Crédit</th>
+                <th>Débit</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><time datetime ="2016-05-01">01/05/2016</time></td>
+                <td>Paye</td>
+                <td>1500</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td><time datetime ="2016-05-01">01/05/2016</time></td>
+                <td>Courses de la semaine</td>
+                <td>0</td>
+                <td>152,30</td>
+            </tr>
+            <tr>
+                <td><time datetime ="2016-05-04">04/05/2016</time></td>
+                <td>Mc do</td>
+                <td>0</td>
+                <td>39,90</td>
+            </tr>
+            <tr>
+                <td><time datetime ="2016-05-05">05/05/2016</time></td>
+                <td>Loyer</td>
+                <td>0</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td><time datetime ="2016-05-05">05/05/2016</time></td>
+                <td>Internet</td>
+                <td>0</td>
+                <td>39,90</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Solde</td>
+                <td colspan="2">575,40</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
